@@ -143,7 +143,7 @@
             <TextBox x:Name="Password_user11" Text="Введите пароль" Grid.Row="4" FontSize="16" Foreground="#FF706A6A" BorderThickness="0,0,0,1"  VerticalAlignment="Center" GotFocus="Password_user11_GotFocus" LostFocus="Password_user11_LostFocus" ></TextBox>
             <Label Grid.Row="5" HorizontalAlignment="Right"  ></Label>
             <Button Style="{DynamicResource ButtonStyle1}"    Grid.Row="6 " VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="250" Background="#FFC37979" Height="45" Content="Войти" Click="Button_Click"  ></Button>
-            <Button Style="{DynamicResource ButtonStyle2}"    Grid.Row="7 " HorizontalAlignment="Left" Width="250" Height="45" Background="#FFC37979" Content="Регисрация" Click="Button_Click_1"   ></Button>
+            <Button Style="{DynamicResource ButtonStyle2}"    Grid.Row="7 " HorizontalAlignment="Left" Width="250" Height="45" Background="#FFC37979" Content="Регисрация" Click="Button_Click"   ></Button>
         </Grid>
         <Image Grid.Column="0"  Width="116" VerticalAlignment="Top" HorizontalAlignment="Center" RenderTransformOrigin="0.584,0.23" Margin="0,83,0,0"  Source="/Resourse/Лого.jpg" />
 

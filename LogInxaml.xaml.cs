@@ -23,5 +23,47 @@ namespace Lab
         {
             InitializeComponent();
         }
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Window w2 = new Registration();
+            Hide();
+            w2.Show();
+        }
+
+        private void Password_user11_GotFocus(object sender, RoutedEventArgs e)
+        {
+            if (Password_user11.Text == "Введите пароль")
+            {
+                Password_user11.Text = string.Empty;
+                Password_user11.Foreground = Brushes.Black;
+            }
+        }
+
+        private void Password_user11_LostFocus(object sender, RoutedEventArgs e)
+        {
+            if (Password_user11.Text == "")
+            {
+                Password_user11.Text = "Введите пароль";
+                Password_user11.Foreground = Brushes.Gray;
+            }
+        }
+
+        private void Pochta_user11_GotFocus(object sender, RoutedEventArgs e)
+        {
+            if (Pochta_user11.Text == "student12@gmail.com")
+            {
+                Pochta_user11.Text = string.Empty;
+                Pochta_user11.Foreground = Brushes.Black;
+            }
+        }
+
+        private void Pochta_user11_LostFocus(object sender, RoutedEventArgs e)
+        {
+            if (Pochta_user11.Text == "")
+            {
+                Pochta_user11.Text = "student12@gmail.com";
+                Pochta_user11.Foreground = Brushes.Black;
+            }
+        }
     }
 }
